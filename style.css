@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    background-image:url(https://mobcup.b-cdn.net/w/1wkubjr5);
+    background-size:cover;
+    color:white;
+  }
+  main{
+    background-color:rgba(100, 100, 100, 0.8);
+    width:85%;
+    margin:50px auto;
+    padding-bottom: 20px;
+  }
+  h1{
+    text-align:center;
+    padding-top:20px;
+  }
+  p{
+    text-align:center;
+  }
+  .bottom-line{
+    margin:20px;
+  }
+  form{
+    width: 60vw;
+    max-width:80%;
+    min-width:60%;
+    margin:0 auto;
+  }
+  fieldset{
+    border:none;
+  }
+  label{
+    display:block;
+  }
+  input, select{
+    width:100%;
+    margin-bottom:10px;
+    font-size: 1.1rem;
+  }
+  .inline{
+    width:unset;
+    margin-bottom:15px;
+  }
+  input[type="submit"]{
+    display: block;
+      width: 10%;
+      height:2em;
+      font-size: 1.1rem;
+      background-color: silver;
+      color:black;
+      border-color:white;
+      border-width:3px;
+      min-width: 300px;
+      margin:1.5em auto;
+      padding-bottom:20px;
+  }
+  input[type="submit"]:hover {
+    color: white;
+  }
