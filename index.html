@@ -6,7 +6,7 @@
     charset="UTF-8">
   <title>Film Vs.Digital Camera Survey Form
     </title>
-  <link href="styles.css"
+  <link href="styles.css">
 </head>
 <body>
   <main>
@@ -14,111 +14,136 @@
     id="title">
     Film Vs. Digital Camera Survey Form
     </h1>
-    <p 
-        id="description">
-        Thank you for taking the time to help us improve the platform
-        </p>
-    <form 
-        id="survey-form">
-        <fieldset>
-            <label 
-                for="name">Name
-                <input 
-                    id="name" 
-                    type="text"
-                    required
-                    placeholder="Enter your name">
-            </label>
-            <label for="email">Email
-                <input 
-                    id="email" 
-                    type="email"
-                    required
-                    placeholder="Enter your Email">
-            </label>
-            <label for="number"> Age(optional)
-                <input 
-                    id="number" 
-                    type="number"
-                    max="120"
-                    min="0"
-                    required
-                    placeholder="Age">
-            </label>
-            <label 
-                for="dropdown">Which option best describes your current role?
-                <select id="dropdown">
-                    <option 
-                        value="">select current role
-                        </option>
-                    <option 
-                        value="1">students
-                        </option>
-                    <option 
-                        value="2">full-time job
-                        </option>
-                    <option 
-                        value="3">part-time job
-                        </option>
-                    <option 
-                        value="4">full-time learner
-                        </option>
-                    <option 
-                        value="5">other
-                        </option>
-                    <option 
-                        value="6">prefer not to say
-                        </option>
-                </select>
+  <p 
+      id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <hr class="bottom-line">
+  <form 
+    id="survey-form">
+      <fieldset>
+        <label 
+            for="name"
+            id="name-label">Name
+          <input 
+            id="name" 
+            type="text"
+            required
+            placeholder="Enter your name">
+          </label>
+        <label 
+          for="email"
+          id="email-label">Email
+          <input 
+            id="email" 
+            type="email"
+            required
+            placeholder="Enter your Email">
+          </label>
+        <label 
+          for="number"
+          id="number-label"> Age(optional)
+          <input 
+            id="number" 
+            type="number"
+            max="120"
+            min="0"
+            required
+            placeholder="Age">
+          </label>
+        <label for="dropdown">
+            Which option best describes your current role?</label>
+        <select 
+          id="dropdown"
+          required>
+          <option 
+            value="">select current role
+            </option>
+          <option 
+            value="1">students
+            </option>
+          <option 
+            value="2">full-time job
+            </option>
+          <option 
+            value="3">part-time job
+            </option>
+          <option 
+            value="4">full-time learner
+            </option>
+          <option 
+            value="5">other
+            </option>
+          <option 
+            value="6">prefer not to say
+            </option>
+        </select>
+          </fieldset>
+      <fieldset>
+        <label 
+          for="preference">Do you have a preference for using film or digital photography?<br> <br>
+          <input 
+            type="radio"
+            id="preference" 
+            name="1"
+            value="1"
+            class="inline"
+            checked
+            required> Yes, I prefer using film.<br>
+          <input 
+            type="radio"
+            id="preference"  
+            name="1"
+            value="1"
+            class="inline"> Yes, I prefer using digital.<br>
+          <input 
+            type="radio"
+            id="preference" 
+            name="1"
+            value="1"
+            class="inline"> No, I have no preference.
         </fieldset>
-        <fieldset>
-            <label 
-            for="preference">Do you have a preference for using film or digital photography?<br>
+      <fieldset>
+        <label 
+          for="factors"> What factors are important in choosing cameras? 
+        </label><br><br>
             <input 
-                type="radio"
-                id="preference" 
-                name="1"
-                class="inline"
-                checked> Yes,I prefer using film.
+              type="checkbox"  
+              class="inline"
+              value="x"
+              required> Cost<br>
             <input 
-                type="radio"
-                id="preference"  
-                name="1"
-                class="inline"> Yes,I prefer using digital.
+              type="checkbox" 
+              class="inline"
+              value="x"> Size and Weight<br>
             <input 
-                type="radio"
-                id="preference" 
-                name="1"
-                class="inline"> No, I have no preference.
-        </fieldset>
-        <fieldset>
-            <label 
-            for="factors"> What factors are important in choosing cameras? 
-                <input 
-                type="checkbox" 
-                required 
-                    class="inline"> Cost
-                <input 
-                type="checkbox" 
-                required 
-                    class="inline"> Size and Weight
-                <input 
-                type="checkbox" 
-                required 
-                    class="inline"> Feedback
-                <input 
-                type="checkbox" 
-                required 
-                    class="inline"> Storage Capacity
-                <input 
-                type="checkbox" 
-                required 
-                    class="inline"> Photo Quality
+              type="checkbox" 
+              class="inline"
+              value="x"> Feedback<br>
+            <input 
+              type="checkbox"
+              class="inline"
+              value="x"> Storage Capacity<br>
+            <input 
+              type="checkbox"
+              class="inline"
+              value="x"> Photo Quality<br>
+              <input 
+              type="checkbox"
+              class="inline"
+              value="x"> other
+              <textarea 
+                id="other-factors"
+                rows="1" 
+                cols="20" 
+                placeholder="Type here">
+                </textarea>
             </label>
         </fieldset>
          <input
             type="submit"
-            id="submit"
+            id="submit"/>
     </form>
-  </main>
-</body>
+    </main>
+  </body>
+</html>
