@@ -6,7 +6,7 @@
     charset="UTF-8">
   <title>Film Vs.Digital Camera Survey Form
     </title>
-  <link href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main>
@@ -14,7 +14,7 @@
     id="title">
     Film Vs. Digital Camera Survey Form
     </h1>
-  <p 
+    <p 
       id="description">
       Thank you for your time : )
     </p>
@@ -30,7 +30,7 @@
             type="text"
             required
             placeholder="Enter your name">
-          </label>
+        </label>
         <label 
           for="email"
           id="email-label">Email
@@ -39,7 +39,7 @@
             type="email"
             required
             placeholder="Enter your Email">
-          </label>
+        </label>
         <label 
           for="number"
           id="number-label"> Age(optional)
@@ -50,35 +50,35 @@
             min="0"
             required
             placeholder="Age">
-          </label>
+        </label>
         <label for="dropdown">
             Which option best describes your current role?</label>
         <select 
           id="dropdown"
           required>
-          <option 
+            <option 
             value="">select current role
             </option>
-          <option 
+            <option 
             value="1">students
             </option>
-          <option 
+            <option 
             value="2">full-time job
             </option>
-          <option 
+            <option 
             value="3">part-time job
             </option>
-          <option 
+            <option 
             value="4">full-time learner
             </option>
-          <option 
+            <option 
             value="5">other
             </option>
-          <option 
+            <option 
             value="6">prefer not to say
             </option>
         </select>
-          </fieldset>
+      </fieldset>
       <fieldset>
         <label 
           for="preference">Do you have a preference for using film or digital photography?<br> <br>
@@ -103,7 +103,7 @@
             value="1"
             class="inline"> No, I have no preference.
         </fieldset>
-      <fieldset>
+        <fieldset>
         <label 
           for="factors"> What factors are important in choosing cameras? 
         </label><br>
@@ -128,17 +128,23 @@
               type="checkbox"
               class="inline"
               value="x"> Photo Quality<br>
-              <input 
+            <input 
               type="checkbox"
               class="inline"
               value="x"> other
-              <textarea 
-                id="other-factors"
-                rows="1" 
-                cols="20" 
-                placeholder="Type here">
-                </textarea>
-            </label>
+              <input 
+              type="text"
+              class="inline"
+              placeholder="Type here">
+        </fieldset>
+        <fieldset>
+          <label 
+            for="cameras">Do you have a camera? What camera are you using?</label> 
+            <textarea 
+              id="other-factors"
+              rows="1" 
+              cols="20" 
+              placeholder="Type here"></textarea> <Menu:context></Menu:context>
         </fieldset>
          <input
             type="submit"
