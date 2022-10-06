@@ -1,8 +1,9 @@
 body{
   margin:0;
   background-image:url(https://mobcup.b-cdn.net/w/1wkubjr5);
-  background-size:cover;
   color:white;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 main{
   background-color:rgba(100, 100, 100, 0.8);
