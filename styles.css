@@ -1,8 +1,8 @@
 body{
   margin:0;
   background-image:url(https://mobcup.b-cdn.net/w/1wkubjr5);
-  color:white;
   background-repeat: no-repeat;
+  color:white;
   background-size:cover;
 }
 main{
@@ -39,23 +39,40 @@ input, select{
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 1.1rem;
-  color: #757575;
+  color: black;
   border-radius:5px;
   text-indent:3px;
   border:none;
   background:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(195, 195, 195) 100%);
+  padding: 1px 2px;
+  font-family: Microsoft YaHei;
+  box-sizing: border-box;
+}
+
+.black{
+  color:black;
 }
 
 .inline{
   width:unset;
   margin-bottom:15px;
 }
-textarea{
- margin-top:10px;
- border-radius:5px;
- width:100%;
- font-size: 1.1rem;
+
+.typearea{
+  background:white;
+  text-indent:3px;
+  color:black;
 }
+
+textarea{
+  margin-top:10px;
+  border-radius:5px;
+  width:100%;
+  font-size: 1.1rem;
+  padding:1px 2px;
+  border:none;
+ }
+
 input[type="submit"]{
   display: block;
   width: 10%;
@@ -71,3 +88,4 @@ input[type="submit"]{
 input[type="submit"]:hover {
   color: rgb(120, 120, 120);
 }
+
