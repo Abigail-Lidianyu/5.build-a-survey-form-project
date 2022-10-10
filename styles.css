@@ -1,6 +1,6 @@
 body{
   margin:0;
-  background-image:url(https://mobcup.b-cdn.net/w/1wkubjr5);
+  background-image:url(Assets/Images/Camera-Background.jpg);
   background-repeat: no-repeat;
   color:white;
   background-size:cover;
@@ -28,8 +28,13 @@ form{
   min-width:60%;
   margin:0 auto;
 }
+
 fieldset{
   border:none;
+}
+
+.default-text{
+  color:grey;
 }
 label{
   display:block;
